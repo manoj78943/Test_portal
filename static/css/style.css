@@ -1,0 +1,62 @@
+{% load static %}
+#mark{
+margin-left:35%;
+height:25%;
+width:30%;
+border:2px solid #f1f1f1}
+
+#eduinfo{
+margin-left:35%;
+color:#d71f56;
+font-family:algerian;
+font-size:140%;}
+
+#mark{
+padding:10px;}
+
+.mark16{
+padding-top:10px;}
+
+#div2{
+padding-top:10px;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #04aa5f;
+  color: black;
+}
+
+input{
+width:90%;
+padding:5px;
+}
+
+#nasty{
+color:#252f56;
+font-family:algerian;
+font-size:120%;}
+
+.btn{
+height:70px;
+margin-top:2%;
+text-align:center;
+}
+
+.btn2{
+background-color:pink;
+height:35%;
+width:10%;}
+

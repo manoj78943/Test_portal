@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test site</title>
+    <link rel ="stylesheet" type="text/css" href = "{% static 'css/style2.css' %}">
+</head>
+<body>
+<div class="topnav">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#result">Result</a>
+</div>
+<div>
+    <h3>This is your test site. After completing the test kindly click on the "COMPLETE" button.</h3>
+    <br>
+    <h4>**No need to design test portal.**</h4>
+
+    <div class ="btn">
+        <button class= "btn2" type="submit"><a href ="/result" style="text-decoration: none;">COMPLETE</a></button>
+    </div>
+</div>
+</body>
+</html>

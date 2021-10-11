@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+    <link rel ="stylesheet" type="text/css" href = "{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="topnav">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#result">Result</a>
+</div>
+<div>
+    <h3>Please fill this form...</h3>
+</div>
+<form id="formid">
+    <p id = "eduinfo">PERSONAL INFORMATION</p>
+    <div id="mark">
+        <div id ="div2">
+        <label class ="mark1" for="fname"><b>First Name</b></label><br>
+        <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="lname"><b>Last Name</b></label><br>
+        <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark16" for="email"><b>Email Address</b></label><br>
+        <input type="email" placeholder="Enter Email Address" name="email" id="email" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark16" for="mobilenum"><b>Mobile Number</b></label><br>
+        <input type="number" placeholder="Enter Mobile Number" name="mobilenum" id="mobilenum" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="fatname"><b>Fathers name</b></label><br>
+        <input type="text" placeholder="Enter Fathers Name" name="fatname" id="fatname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="motname"><b>Mothers Name</b></label><br>
+        <input type="text" placeholder="Enter Mothers Name" name="motname" id="motname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="gname"><b>Guardian Name</b></label><br>
+        <input type="text" placeholder="Enter Guardian Name" name="gname" id="gname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="income"><b>Family Annual Income</b></label><br>
+        <input type="number" placeholder="Enter Annual Income" name="income" id="income" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="address"><b>Your full address</b></label><br>
+        <input type="text" placeholder="Enter your address" name="address" id="address" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="state"><b>State</b></label><br>
+        <input type="text" placeholder="Enter your state" name="state" id="state" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="pincode"><b>Pincode</b></label><br>
+        <input type="number" placeholder="Enter your pincode" name="pincode" id="pincode" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="aadhar"><b>Aadhar Number</b></label><br>
+        <input type="number" placeholder="Enter your aadhar number" name="aadhar" id="aadhar" required>
+        <br>
+        </div>
+    </div>
+    <p id = "eduinfo">EDUCATIONAL INFORMATION</p>
+    <div id="mark">
+        <div id="nasty">
+            <p>CLASS X</p>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="schname"><b>School Name</b></label><br>
+        <input type="text" placeholder="School Name" name="schname" id="schname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="boardname"><b>Board Name</b></label><br>
+        <input type="text" placeholder="Board Name" name="boardname" id="boardname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="regnum"><b>Registration Number</b></label><br>
+        <input type="number" placeholder="Your registration number" name="regnum" id="regnum" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="fmarks"><b>Full Marks</b></label><br>
+        <input type="number" placeholder="Your Full Marks" name="fmarks" id="fmarks" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="ymarks"><b>Marks You got</b></label><br>
+        <input type="number" placeholder="Your marks" name="ymarks" id="ymarks" required>
+        <br>
+        </div>
+        <div id="nasty">
+            <p>CLASS XII</p>
+        </div>
+        <div>
+        <label class ="mark1" for="schname"><b>School Name</b></label><br>
+        <input type="text" placeholder="School Name" name="schname" id="schname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="boardname"><b>Board Name</b></label><br>
+        <input type="text" placeholder="Board Name" name="boardname" id="boardname" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="regnum"><b>Registration Number</b></label><br>
+        <input type="number" placeholder="Your registration number" name="regnum" id="regnum" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="fmarks"><b>Full Marks</b></label><br>
+        <input type="number" placeholder="Your Full Marks" name="fmarks" id="fmarks" required>
+        <br>
+        </div>
+        <div id ="div2">
+        <label class ="mark1" for="ymarks"><b>Marks You got</b></label><br>
+        <input type="number" placeholder="Your marks" name="ymarks" id="ymarks" required>
+        <br>
+        </div>
+    </div>
+    <div class ="btn">
+        <button class= "btn2" type="submit"><a href ="/test" style="text-decoration: none;">SUBMIT</a></button>
+    </div>
+</form>
+</body>
+</html>
